@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Print_Hello_Message
+    - name: Print Hello Message in Testing
       run: echo "Hello World from Testing job"
 
     - name: Execute few commands
@@ -36,7 +36,7 @@ jobs:
     # aftter my_testing job
     
     steps:
-    - name: Print_Hello_Message
+    - name: Print Hello Message in Deploy
       run: echo "Hello World from Deploying job"
 
     - name: Deployment package
