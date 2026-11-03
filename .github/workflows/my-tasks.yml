@@ -69,4 +69,4 @@ jobs:
       run: aws --version
 
     - name: Let's test some packages if they are here 2
-      run: zip
+      run: zip --version
