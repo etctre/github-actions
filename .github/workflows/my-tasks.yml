@@ -19,7 +19,6 @@ jobs:
       - name: Print_Hello_Message
         run: echo "Hello World from Testing job"
 
-
   my_deploy:
       runs-on: ubuntu-latest
       steps:
