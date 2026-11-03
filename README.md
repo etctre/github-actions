@@ -1,1 +1,6 @@
+# GitHub Actions Part-1 Basics
+
+Status of last deployment:<br>
+<tag src="https://github.com/etctre/github-actions/workflows/My-GitHubActions-Basics/badge.svg?branch=master"><br>
+
 Copyright (c) by Yuri Philippenko
