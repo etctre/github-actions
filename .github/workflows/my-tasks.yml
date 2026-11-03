@@ -16,11 +16,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print_Hello_Message
-        run: echo "Hello World from Testing job"
+    - name: Print_Hello_Message
+      run: echo "Hello World from Testing job"
 
   my_deploy:
-      runs-on: ubuntu-latest
-      steps:
-      - name: Print_Hello_Message
-        run: echo "Hello World from Deploying job"
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print_Hello_Message
+      run: echo "Hello World from Deploying job"
